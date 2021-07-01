@@ -91,14 +91,7 @@ const Aboutme = () => {
                         className={classes.aboutMeImg}
                     />
                 </div>
-                <Typography variant='h6'>
-                    Hi, my name is Josip.
-                    <br /> I have spent several years doing photography, so on this
-                    website are what I consider my best photos. I find insects
-                    interesting, especially their colors, therefore some of my photos are
-                    macro. However, I also find myself engaged in looking for the best
-                    shot in vast landscapes.
-                </Typography>
+                <Typography variant='h6'></Typography>
             </Paper>
         </motion.div>
     );
