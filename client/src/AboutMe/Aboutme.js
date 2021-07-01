@@ -97,9 +97,7 @@ const Aboutme = () => {
                     website are what I consider my best photos. I find insects
                     interesting, especially their colors, therefore some of my photos are
                     macro. However, I also find myself engaged in looking for the best
-                    shot in vast landscapes. Sed ut perspiciatis unde omnis iste natus
-                    error sit voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et.
+                    shot in vast landscapes.
                 </Typography>
             </Paper>
         </motion.div>
