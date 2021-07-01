@@ -19,7 +19,7 @@ const menuOptions = [
 ];
 
 const TabsFullWidth = props => {
-    const { profile, totalItems, selectedCategory, matches } = props;
+    const { profile, totalItems, selectedCategory } = props;
     const classes = useStyles();
     const location = useLocation();
 
