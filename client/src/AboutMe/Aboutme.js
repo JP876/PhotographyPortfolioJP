@@ -28,7 +28,7 @@ const useStyles = makeStyles(theme => ({
             textAlign: 'center',
 
             [theme.breakpoints.down('xs')]: {
-                padding: '1rem',
+                padding: '.6rem',
                 fontSize: '1rem',
             },
         },
@@ -40,7 +40,7 @@ const useStyles = makeStyles(theme => ({
             flexDirection: 'column',
             height: 'auto',
             width: '84%',
-            margin: '6rem 0 2.4rem 0',
+            margin: '4.8rem 0 2rem 0',
         },
     },
     imgContainer: {
@@ -50,17 +50,24 @@ const useStyles = makeStyles(theme => ({
 
         [theme.breakpoints.down('xs')]: {
             height: '20rem',
-            width: '74%',
+            width: '80%',
             padding: '1rem 0',
         },
     },
     aboutMeImg: {
         height: '100%',
+        width: '100%',
         backgroundSize: 'cover',
         backgroundAttachment: 'local',
         backgroundPosition: 'center',
         borderRadius: '4px',
         backgroundBlendMode: 'lighten',
+
+        [theme.breakpoints.down('xs')]: {
+            height: '20rem',
+
+            //width: '74%',
+        },
     },
 }));
 
@@ -85,11 +92,12 @@ const Aboutme = () => {
                     />
                 </div>
                 <Typography variant='h6'>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-                    ab illo inventore veritatis et quasi architecto beatae vitae dicta
-                    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                    aspernatur aut odit.
+                    Hi, my name is Josip.
+                    <br /> I have spent several years doing photography, so on this
+                    website are what I consider my best photos. I find insects
+                    interesting, especially their colors, therefore some of my photos are
+                    macro. However, I also find myself engaged in looking for the best
+                    shot in vast landscapes.
                 </Typography>
             </Paper>
         </motion.div>
